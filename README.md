@@ -86,7 +86,7 @@ Copy code
 
 text-to-rdbms/
 │
-├── db-reader/                    # Reads the database schema
+├── db-reader/                    # Reads the database schema 
 │   ├── index.js / schema_reader.py  # Main code for extracting schema details
 │   └── ...                       # Any additional modules for DB connection
 │
