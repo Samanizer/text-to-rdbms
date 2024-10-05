@@ -83,31 +83,31 @@ markdown
 Copy code
 
 ## Folder Structure
-
-text-to-rdbms/
-│
-├── db-reader/                    # Reads the database schema 
-│   ├── index.js / schema_reader.py  # Main code for extracting schema details
-│   └── ...                       # Any additional modules for DB connection
-│
-├── nlp-query-generator/          # NLP code to generate SQL from user input
-│   ├── index.js / query_generator.py
-│   └── openai_integration.js / openai_integration.py
-│
-├── response-formatter/           # Code to format query results for display
-│   ├── index.js / response_formatter.py
-│   └── utils.js / utils.py       # Utility functions for formatting results
-│
-├── ui/                           # Frontend code
-│   ├── index.html               # Main HTML file
-│   ├── styles.css               # CSS for styling
-│   └── app.js                   # JavaScript for UI interactions
-│
-├── docs/                         # Documentation and assets
-├── .env                          # Environment variables
-└── README.md                     # Project documentation
-
-Adding a New Feature
+  
+text-to-rdbms/  
+│  
+├── db-reader/                    # Reads the database schema  
+│   ├── index.js / schema_reader.py  # Main code for extracting schema details  
+│   └── ...                       # Any additional modules for DB connection  
+│  
+├── nlp-query-generator/          # NLP code to generate SQL from user input  
+│   ├── index.js / query_generator.py  
+│   └── openai_integration.js / openai_integration.py  
+│  
+├── response-formatter/           # Code to format query results for display  
+│   ├── index.js / response_formatter.py  
+│   └── utils.js / utils.py       # Utility functions for formatting results  
+│  
+├── ui/                           # Frontend code  
+│   ├── index.html               # Main HTML file  
+│   ├── styles.css               # CSS for styling  
+│   └── app.js                   # JavaScript for UI interactions  
+│  
+├── docs/                         # Documentation and assets  
+├── .env                          # Environment variables  
+└── README.md                     # Project documentation  
+  
+Adding a New Feature  
 Create a new branch for your feature:
 
 
